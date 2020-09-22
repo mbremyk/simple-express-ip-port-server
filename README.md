@@ -15,4 +15,4 @@ If you want to run the server locally, follow these steps. The server will not f
   ```
 4. Run `npm install`
 5. Run `node server.js`
-6. Go to (http://localhost:8080)[http://localhost:8080]
+6. Go to http://localhost:8080
