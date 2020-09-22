@@ -14,4 +14,4 @@ app.get("/", (req, res) => {
     })
 });
 
-app.listenAndServe(8080, '0.0.0.0');
+app.listen(8080, '0.0.0.0');
