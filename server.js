@@ -14,4 +14,9 @@ app.get("/", (req, res) => {
     })
 });
 
+app.get("/add", (req, res) => {
+	let a = req.a, b = req.b;
+	res.send(a + b);
+});
+
 app.listen(8080, '0.0.0.0');
