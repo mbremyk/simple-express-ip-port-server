@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
 
 app.get("/add", (req, res) => {
 	let a = Number(req.query.a), b = Number(req.query.b);
+	res.status(200);
 	res.send(a + b);
 });
 
