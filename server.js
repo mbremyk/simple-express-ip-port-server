@@ -16,8 +16,7 @@ app.get("/", (req, res) => {
 
 app.get("/add", (req, res) => {
 	let a = Number(req.query.a), b = Number(req.query.b);
-	res.status(200);
-	res.send(a + b);
+	res.send("" + (a + b));
 });
 
 app.listen(8080, '0.0.0.0');
